@@ -44,11 +44,11 @@ const SlickSlider = () => {
   };
 
   return (
-    <div className="w-screen  overflow-hidden relative h-[230px] sm:h-[350px] flex items-center justify-center">
-      <Slider {...settings} className="w-3/4 h-[200px] sm:h-[300px] ">
+    <div className="w-screen  overflow-hidden relative h-[250px] sm:h-[300px] flex items-center justify-center ">
+      <Slider {...settings} className="w-3/4 h-[200px] sm:h-[250px] ">
         {data.map((slide, index) => (
-          <div key={index} className="w-full h-[180px] sm:h-[280px]">
-            <img src={slide.img} alt="" className="w-full h-full " />
+          <div key={index} className="w-full h-[180px] sm:h-[240px] ">
+            <img src={slide.img} alt="" className="w-full h-full rounded-lg " />
           </div>
         ))}
       </Slider>

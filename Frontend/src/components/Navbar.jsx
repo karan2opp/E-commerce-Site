@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
     
-    <div className=' w-screen h-20 grid-cols-6 grid bg-white shadow-lg border-b-[0.5px] border-gray-500 '>
+    <div className=' w-screen h-20 grid-cols-6 grid bg-white shadow-lg border-b-[0.125px] border-gray-500 '>
        <div className='col-span-1  flex items-center justify-center text-blue-500 '>
           <h2>Myzone</h2>
        </div>
