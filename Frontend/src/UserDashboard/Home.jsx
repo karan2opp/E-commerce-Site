@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import ImageSlide from './ImageSlide'
 import Rows from './rows'
 import Rowt from './Rowt'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const Services=[{
 name:"Sell Phone",
