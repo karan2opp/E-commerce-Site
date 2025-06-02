@@ -32,7 +32,7 @@ const refurb=[
    {
     img:"/Lenovo.webp",
     dis: "99",
-    disc:"Acer Aspire-7 intel core i5 11th gen",
+    disc:"Acer Aspire-7 intel core i5 11th gen 12GB,512GB DDR4 Ram ,MS office 2025",
     price:"599"
   },
    {
@@ -65,42 +65,45 @@ const Rowt = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          arrows: false,
           
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow:2,
-          slidesToScroll: 1
+          slidesToShow:1,
+          slidesToScroll: 1,
+           arrows: false,
         }
       },
        {
-        breakpoint: 350,
+        breakpoint: 360,
         settings: {
           slidesToShow:1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+           arrows: false,
         }
       }
     ]
 
   };
  return(
-  <div className="slider-container pl-5 pr-5 h-[350px] overflow-x-hidden   w-screen flex justify-center sm:pr-2">
+  <div className="slider-container pl-2 pr-5  h-[300px] sm:h-[350px] overflow-x-hidden   w-screen flex justify-center sm:pr-2">
 
-   {<Slider {...settings} className='w-[90%] h-80  '>
+   {<Slider {...settings} className='  w-[80%]  sm:w-[90%] h-64 sm:h-80  '>
     
    {refurb.map((item) => (
        <div className=' px-2  '>
-        <div className='  grid grid-rows-3 w-full justify-items-center  sm:w-full h-60 sm:h-72 border-[1px] rounded-sm border-gray-300 '>
-          <div className='row-span-2 h-full w-3/4 sm:w-full  '>
-            <img src={item.img} alt="" className='w-full  object-contain py-2   h-3/4 sm:h-full' />
+        <div className='  grid grid-rows-4 w-full  justify-items-center  sm:w-full h-60 sm:h-72 max-[400px]:h-56 border-[1px] rounded-sm border-gray-300 '>
+          <div className='   row-span-2 h-[90%] w-full sm:w-full relative top-2 '>
+            <img src={item.img} alt="" className='w-3/4 mx-auto   h-full sm:h-full' />
           </div>
-          <div className='row-span-1  w-full ml-5 text-xs sm:text-sm font-sans font-light '> 
-             <span className=" rounded-xs  bg-[#fdebcf] ">₹ 7000 OFF</span>
-             <p className="">Acer Aspire 7 intel i5 </p>
+          <div className='row-span-2  w-full ml-5 text-xs sm:text-sm font-sans font-light '> 
+             <span className=" rounded-xs  bg-[#fce6c3] ">₹ 7000 OFF</span>
+             <p className="">{item.disc} </p>
              
-             <h1 className=' inline  '> ₹69000 </h1>
+             <h1 className=' inline relative top-2  '> ₹69000 </h1>
              <button className=" bg-[#1d3d93] text-white rounded-xs w-1/2 block mt-2 ">Lowest Price</button>
           </div>
         </div> </div>

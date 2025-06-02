@@ -7,16 +7,16 @@
 
 .slick-prev::before,
 .slick-next::before {
-  color: gray !important;       /* Arrow color */
-  font-size: 20px !important; 
-  
+         /* Arrow color */
+  font-size: 25px !important; 
 }
 .slick-prev:hover::before,
 .slick-next:hover::before {
-  color: blue !important; 
+  color: #34D399 !important; 
      /* Change arrow color on hover */
 }
-.slick-dots {
-  margin-top: 10px;
+.slick-dots::before {
+
+  color: white;
    
 }

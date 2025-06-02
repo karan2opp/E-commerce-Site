@@ -72,7 +72,7 @@ const Home = () => {
   return (
     <>
       {/* Wrapper to prevent horizontal overflow */}
-      <div className='w-full  overflow-x-hidden grid grid-rows-[auto_auto_auto] '>
+      <div className='w-full overflow-x-hidden grid grid-rows-[auto_auto_auto] '>
         
         {/* Navbar row */}
         <div className=''>
