@@ -27,7 +27,7 @@ const App = () => {
   <Route path='/Rowt' element={<Rowt/>}   />
   <Route path='/Rows' element={<Rows/>}   />
   <Route path='/Slide' element={<Slide/>} />
-  
+   <Route path='/ImageSlide' element={<ImageSlide/>} />
   
 </Routes>
 

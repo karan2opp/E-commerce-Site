@@ -3,40 +3,46 @@ import { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Lap1 from "../assets/images/Lenovo.webp"
+import Lap2 from "../assets/images/HP-15.jpg"
+import Lap3 from "../assets/images/selllap.png"
+import Lap4 from "../assets/images/HP-13.webp"
+import Lap5 from "../assets/images/acer.webp"
+
 
 const refurb=[
   {
-    img:"/Lenovo.webp",
+    img:Lap1,
     dis: "99",
     disc:"Acer Aspire-7 intel core i5 11th gen",
     price:"199"
   },
    {
-    img:"/HP-15.jpg",
+    img:Lap2,
     dis: "99",
     disc:"Acer Aspire-7 intel core i5 11th gen",
     price:"299"
   },
    {
-    img:"/selllap.png",
+    img:Lap3,
     dis: "99",
     disc:"Acer Aspire-7 intel core i5 11th gen",
     price:"399"
   },
    {
-    img:"/HP-13.webp",
+    img:Lap4,
     dis: "99",
     disc:"Acer Aspire-7 intel core i5 11th gen",
     price:"499"
   },
    {
-    img:"/Lenovo.webp",
+    img:Lap1,
     dis: "99",
     disc:"Acer Aspire-7 intel core i5 11th gen 12GB,512GB DDR4 Ram ,MS office 2025",
     price:"599"
   },
    {
-    img:"/acer.webp",
+    img:Lap5,
     dis: "99",
     disc:"Acer Aspire-7 intel core i5 11th gen",
     price:"699"

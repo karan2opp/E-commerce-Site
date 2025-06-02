@@ -1,12 +1,12 @@
 import React from 'react'
 import { Navigate, useNavigate } from 'react-router-dom';
 const menuItems = [
-  { title: "All", showOnSmall: true },
-  { title: "Sell Phone", showOnSmall: true },
-  { title: "Sell gadgets", showOnSmall: true },
-  { title: "Buy Phone", showOnSmall: true },
-  { title: " Buy Gadget", showOnSmall: false },
-  { title: "Buy Laptop", showOnSmall: false },
+  { title: "All" },
+  { title: "Sell Phone" },
+  { title: "Sell gadgets" },
+  { title: "Buy Phone" },
+  { title: " Buy Gadget" },
+  { title: "Buy Laptop" },
 ];
 
 const dropdownOptions = ["Smartwatch", "Tablet", "Other Gadget"];

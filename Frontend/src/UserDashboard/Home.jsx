@@ -5,64 +5,76 @@ import Rows from './rows'
 import Rowt from './Rowt'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Img1 from "../assets/images/p1.webp"
+import Img2 from "../assets/images/phones.webp"
+import Img3 from "../assets/images/lap.png"
+import Img4 from "../assets/images/re-phones.png"
+import Img5 from "../assets/images/re-lap.png"
+import Img6 from "../assets/images/smartwatch.png"
+import Img7 from "../assets/images/speaker.png"
+import Img8 from "../assets/images/selllap.png"
+import Img9 from "../assets/images/selltv.png"
+import Img10 from "../assets/images/tab.png"
+import Img11 from "../assets/images/console.png"
+                             
 
 const Services=[{
 name:"Sell Phone",
-img:"/p1.webp",
+img:Img1,
 },
 {
 name:"Buy Phone",
-img:"/phones.webp",
+img:Img2,
 },
 {
 name:"Buy Laptops",
-img:"/lap.png",
+img:Img3,
 },
 {
 name:"Repair Phone",
-img:"/re-phones.png",
+img:Img4,
 },
 {
 name:"Repair Laptop",
-img:"/re-lap.png",
+img:Img5,
 },
 {
 name:"Buy Smartwatches",
-img:"/smartwatch.png",
+img:Img6,
 },
 {
 name:"Buy Speakers",
-img:"/speaker.png",
+img:Img7,
 }
 
 ]
 const otherServices=[{
 name:"Sell Phone",
-img:"/p1.webp",
+img:Img1,
 },
 {
 name:"Sell Laptop",
-img:"/selllap.png",
+img:Img8,
 },
 {
 name:"Sell Tv",
-img:"/selltv.png",
+img:Img9,
 },
 {
 name:"Sell Tablets",
-img:"/tab.png",
+img:Img10,
 },
 {
 name:"Sell Gaming consoles",
-img:"/console.png",
+img:Img11,
 },
 {
 name:"Sell Smartwatches",
-img:"/smartwatch.png",
+img:Img6,
 },
 {
 name:"Sell Speakers",
-img:"/speaker.png",
+img:Img7,
 }
 
 ]
